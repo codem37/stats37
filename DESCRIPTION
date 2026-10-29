@@ -1,0 +1,20 @@
+Package: stats37
+Type: Package
+Title: Helper Functions for the IAI CS1B Actuarial Statistics Practical Paper
+Version: 0.1.0
+Authors@R: person("Manohar", role = c("aut", "cre"), email = "example@gmail.com")
+Description: Ready-to-use R functions for every topic that appears in the
+    Institute and Faculty of Actuaries / IAI CS1B (Actuarial Statistics, Paper B)
+    practical exam: distributions, simulation and the CLT, hypothesis tests and
+    confidence intervals, chi-square tests, ANOVA, correlation, regression,
+    generalised linear models, principal components, conjugate Bayesian
+    analysis, empirical Bayes credibility theory, the bootstrap and maximum
+    likelihood. Every function documents when to use it and what each
+    parameter means, and prints hypotheses and a decision in exam wording.
+    Built from seven past papers (Dec 2022 to Nov 2025).
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats, graphics, utils
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
